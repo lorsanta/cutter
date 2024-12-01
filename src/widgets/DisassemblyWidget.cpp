@@ -984,7 +984,7 @@ void DisassemblyLeftPanel::paintEvent(QPaintEvent *event)
         int arrowLineNumber = offsetToLine(arrow.jmpToffset());
         int lineArrowY = lineToPixels(arrowLineNumber);
 
-        if(lineStartNumber == arrowLineNumber) {
+        if (lineStartNumber == arrowLineNumber) {
             currentLineYPos += lineHeight / 4;
             lineArrowY -= lineHeight / 4;
         }
